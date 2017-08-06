@@ -11,7 +11,8 @@ Fetches device information from the UniFi Controller and displays it in LibreNMS
 1. Clone the repository locally
 2. Locate your LibreNMS installation
 3. Place the UniFi folder in the html/plugins directory of the LibreNMS installation
-4. Activate the plugin. Select Overview > Plugins > Plugin Admin in the top menu
+4. Enter your UniFi Controller login details in the config.php file
+5. Activate the plugin. Select Overview > Plugins > Plugin Admin in the top menu
 
 ## Supported devices
 
