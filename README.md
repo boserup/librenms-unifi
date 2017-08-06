@@ -17,11 +17,13 @@ Fetches device information from the UniFi Controller and displays it in LibreNMS
 
 #### UniFi Security Gateway
 SysName: usg
-Stats: 
+
+Stats: uplink, uplink uptime, adopted
 
 ####  UniFi Switch, 8-Port
 SysName: us-8
-Stats: 
+
+Stats: uplink (without latency), adopted
 
 ## Adding new devices
 Edit UniFi/devices.php and add a new array key with the device system name as it appears in LibreNMS. Define the keys you wish to extract as they appear in the UniFI API response. When submitting a pull request, please remember to update the readme file as well. 
